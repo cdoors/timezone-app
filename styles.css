@@ -1,0 +1,19 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+.container {
+    max-width: 600px;
+    margin: auto;
+}
+
+#timezone-list {
+    margin-top: 20px;
+}
+
+.timeline {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
