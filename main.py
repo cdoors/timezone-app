@@ -8,7 +8,14 @@ class TimezoneComparisonTool:
         self.root = root
         self.root.title("Timezone Comparison Tool")
 
-        self.timezones = pytz.all_timezones
+        self.timezones = [
+            "US/Eastern", "US/Central", "US/Mountain", "US/Pacific",
+            "Europe/London", "Europe/Berlin", "Europe/Moscow",
+            "Asia/Tokyo", "Asia/Shanghai", "Asia/Dubai",
+            "Australia/Sydney", "Pacific/Auckland",
+            "America/Sao_Paulo", "Africa/Cairo",
+            "America/Sao_Paulo", "America/Manaus"  # Added Brazil East and West
+        ]
         self.selected_timezones = []
 
         # Create UI elements
