@@ -28,7 +28,28 @@ This simple application allows users to compare different time zones on a horizo
    cd timezone-comparison-tool
    ```
 
-3. Open `index.html` in your web browser.
+3. To run the application locally for development purposes:
+   - If you have Python installed, you can use Python's built-in HTTP server:
+     - For Python 3.x:
+       ```
+       python -m http.server
+       ```
+     - For Python 2.x:
+       ```
+       python -m SimpleHTTPServer
+       ```
+   - If you have Node.js installed, you can use a package like `http-server`:
+     - Install `http-server` globally:
+       ```
+       npm install -g http-server
+       ```
+     - Run the server:
+       ```
+       http-server
+       ```
+   - Open your web browser and navigate to `http://localhost:8000` (or the port number provided by your chosen method).
+
+4. Alternatively, you can simply open `index.html` directly in your web browser, but some features might not work correctly due to browser security restrictions when running from a local file.
 
 ## Usage
 
@@ -44,5 +65,3 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 ## License
 
 This project is open source and available under the [MIT License](LICENSE).
-
-
